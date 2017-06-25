@@ -1,24 +1,22 @@
+# API Basejump: URL Shortener Microservice
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+> User stories:
+> 
+> *   I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
+> *   When I visit that shortened URL, it will redirect me to my original link.
 
+### Example usage:
 
-Welcome to your Rails project on Cloud9 IDE!
+`https://jeremylshepherd-urlapp.herokuapp.com/api/new/http://www.google.com`  
 
-To get started, just do the following:
+### Example output:
 
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://fcc-urlshortener-rails-jeremylshepherd.c9users.io/).
+`{ "original_url": 'http://www.google.com', "short_url": 1 }`
 
-Happy coding!
-The Cloud9 IDE team
+### Usage:
 
+`https://jeremylshepherd-urlapp.herokuapp.com/1`
 
-## Support & Documentation
+### Will redirect to:
 
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+`http://www.google.com/`
