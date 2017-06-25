@@ -1,0 +1,29 @@
+<div class="container">
+    <h1 class="header">
+        API Basejump: URL Shortener Microservice
+    </h1>
+    <blockquote>
+        User stories:
+        <ul>
+          <li>
+             I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
+          </li>
+          <li>
+            When I visit that shortened URL, it will redirect me to my original link.
+          </li>
+        </ul>
+    </blockquote>
+    <h3>Example usage:</h3>
+    <code>https://jeremylshepherd-urlapp.herokuapp.com/api/new/http://www.google.com</code><br>
+    <h3>Example output:</h3>
+    <code>
+        {
+          "original_url": 'http://www.google.com',
+          "short_url": 1
+        }
+    </code>
+    <h3>Usage:</h3>
+    <code>https://jeremylshepherd-urlapp.herokuapp.com/1</code>
+    <h3>Will redirect to:</h3>
+    <code>http://www.google.com/</code>
+</div>
