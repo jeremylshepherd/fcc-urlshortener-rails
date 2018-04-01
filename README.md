@@ -7,7 +7,7 @@
 
 ### Example usage:
 
-`https://jeremylshepherd-urlapp-rails.herokuapp.com/api/new/http://www.google.com`  
+`https://jeremylshepherd-urlapp-rails.herokuapp.com/new/http://www.google.com`  
 
 ### Example output:
 
