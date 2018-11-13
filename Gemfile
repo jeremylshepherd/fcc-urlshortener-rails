@@ -19,6 +19,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'loofah', '~> 2.2.3'
 gem 'nokogiri', '~> 1.8.1'
 gem "sprockets", ">= 3.7.2"
+gem "ffi", ">= 1.9.24"
 
 gem 'bootstrap-sass', '~> 3.3.6'
 
